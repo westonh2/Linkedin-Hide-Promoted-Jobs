@@ -21,7 +21,6 @@ javascript: (() => {
                         job.parentElement.parentElement.parentElement.style.display = 'none';
                     }
                 });
-                
             }, 1000);
             jobList.removeEventListener('scroll', removePromoted);
         }
